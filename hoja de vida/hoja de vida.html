@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="hojade vida.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvaro|Hoja de Vida</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="title">MI hoja de Vida</h1>
+        <img class="circular--square" src="perfil.jpg">
+    </header>
+
+    <button
+    class="burger"
+    onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a href="portafolio/portafolio.html" style="animation-delay: 0.2s;">
+           Portafolio
+            </a>
+            <a href="curriculum/curriculum.html" style="animation-delay: 0.2s;">
+                curriculum vitae
+                </a>
+
+                <a href="acerca de mi/sobremi.html"style="animation-delay: 0.2s;">
+                   Sobre MI
+                     </a>
+
+                       <a href="https://www.linkedin.com/in/alvaro-perez-27749b231/"style="animation-delay: 0.2s;">
+                Linkedin
+                </a>
+     
+                
+        </nav>
+    </div> 
+    
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+      </script>
+    
+</body>
+</html>

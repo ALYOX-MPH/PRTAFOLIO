@@ -1,0 +1,55 @@
+
+body{
+    background: linear-gradient(rgb(136, 217, 251), rgb(0, 2, 7) 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+}
+
+
+.img__banner{
+
+    width: 6%;
+    height: 4%;
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.banner{
+    background-image:url(img/fondo-banner.jpg);
+
+    background-size:100%;
+
+    width: 100px;
+    
+    color:blue;
+
+    width: 100%;
+
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.menu{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid #103D4A;
+
+    position: absolute;
+
+
+}
